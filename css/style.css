@@ -458,6 +458,9 @@ table th {
 
 }
 
+.grid article {
+   margin: 0 5rem;
+}
 
 @media (max-width: 800px) {
 
