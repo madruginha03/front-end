@@ -464,13 +464,14 @@ table th {
 
       grid-template-columns: 1fr;
       align-content: center;
-      padding-left: 5rem;
+      padding-left: 10rem;
    }
 
    .grid-gallery {
       grid-template-columns: 1fr;
-      padding-left: -2rem;
+      padding-left: 0;
       padding-top: 8rem;
+      padding-right: 10rem;
 
    }
 
