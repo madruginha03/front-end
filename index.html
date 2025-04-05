@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landing page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1>
+                <a href="#intro">LOGO</a>
+            </h1>
+            <nav>
+                <Ul onclick="document.getElementById('close-menu').checked = false;">
+                    <li><a href="#perfomace">perfomace</a></li>
+                    <li><a href="#top3">top 3</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#recent-jobs">grid two</a></li>
+                    <li><a href="#pricing">table</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </Ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="intro" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>January Brings US firefox 85</h2>
+                <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are
+                    bringing you
+                    support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal
+                    of Flash
+                    support from Firefox</p>
+            </div>
+            <div class="intro-image">
+                <img src="imagens/javascript.svg" alt="logo html css javascipt ">
+            </div>
+
+        </div>
+    </section>
+
+    <section id="perfomace" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>surprises the machine’s performance.</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and
+                some surprises at the machine’s performance. This post details some background information on the
+                experience of porting Firefox to run natively on these CPUs.</p>
+            <p>We’ll start with some background on the Mac transition and give an overview of Firefox internals that
+                needed to know about the new architecture, before moving on to the concept of Universal Binaries.</p>
+            <p>
+                We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur,
+                and discuss various updater problems we had to deal with. We’ll conclude with the release and an
+                overview of various other improvements that are in the pipeline.
+            </p>
+
+
+        </div>
+    </section>
+
+    <section id="top3" class="grid main-bg section">
+        <div class="grid-one-content">
+            <h2 class="grid-main-heading">my grid</h2>
+            <p class="grid-description">Uma Breve descrição.</p>
+            <div class="grid">
+                <article>
+                    <h3>teste 1</h3>
+                    <p>Lorem ipsum dolor,<br> sit amet consectetur adipisicing elit.<br> Placeat minima fuga, maiores!
+                    </p>
+                </article>
+                <article>
+                    <h3>teste 2 </h3>
+                    <p>Lorem ipsum dolor,<br> sit amet consectetur adipisicing elit.<br> Placeat minima fuga, maiores!
+                    </p>
+                </article>
+                <article>
+                    <h3>teste 3</h3>
+                    <p>Lorem ipsum dolor,<br> sit amet consectetur adipisicing elit.<br> Placeat minima fuga, maiores!
+                    </p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class=" grid-gallery white-bg section">
+        <div class="grid-one-content">
+            <h2 class="grid-main-heading">gallery</h2>
+            <p id="grid-gallery" class="grid-description">Uma Breve descrição.</p>
+            <div class="grid gallery">
+                <div class="gallery-img">
+                    <img src="http://www.fiisanatos.md/images/Articles/360x360/14975357389725.jpg"
+                        alt="image from googel image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://www.fiisanatos.md/images/Articles/360x360/16069261456342.jpg"
+                        alt="image from googel image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://www.fiisanatos.md/images/Articles/360x360/14907880797471.jpg"
+                        alt="image from googel image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://www.fiisanatos.md/images/Articles/360x360/14569286083081.jpg"
+                        alt="image from googel image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://www.fiisanatos.md/images/Articles/360x360/14631629028528.jpg"
+                        alt="image from googel image">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://www.fiisanatos.md/images/Articles/360x360/1424013483225.jpg"
+                        alt="image from googel image">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="recent-jobs" class="grid main-bg section">
+        <div class="grid-one-content">
+            <h2 class="grid-main-heading">Rescue</h2>
+            <p class="grid-description">description works</p>
+            <div class="grid">
+                <article>
+                    <h3>teste 1</h3>
+                    <p>Lorem ipsum dolor,<br> sit amet consectetur adipisicing elit.<br> Placeat minima fuga, maiores!
+                    </p>
+                </article>
+                <article>
+                    <h3>teste 2 </h3>
+                    <p>Lorem ipsum dolor,<br> sit amet consectetur adipisicing elit.<br> Placeat minima fuga, maiores!
+                    </p>
+                </article>
+                <article>
+                    <h3>teste 3</h3>
+                    <p>Lorem ipsum dolor,<br> sit amet consectetur adipisicing elit.<br> Placeat minima fuga, maiores!
+                    </p>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2>pricing</h2>
+            <p>The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and
+                some surprises at the machine’s performance. This post details some background information on the
+                experience of porting Firefox to run natively on these CPUs.</p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption>pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th>title 1</th>
+                            <th>title 2</th>
+                            <th>title 3</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                        <tr>
+                            <td>content 1</td>
+                            <td>content 2</td>
+                            <td>content 3</td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td>testing</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>The Enchanted Forest</h2>
+                <p>In a small village, there was an enchanted forest known to whisper secrets to those who walked
+                    through it. Emma, a curious little girl, ventured into the forest one day. As she wandered, the
+                    trees shared stories of ancient times and magical creatures. Emma listened in awe, her imagination
+                    taking flight with every tale.</p>
+            </div>
+            <div class="intro-image">
+                <img src="imagens/spacesvg.svg" alt="logo html css javascipt ">
+            </div>
+
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>contact me</legend>
+                    <div class="form-group">
+                        <label for="first name">first name</label>
+                        <input type="text" id="first name" name="first name" placeholder="your first name" required>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="last-name">last name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="your last name " required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">email</label>
+                        <input type="email" id="email" name="email" placeholder="example: mamabrusqueta@gmail.com"
+                            required>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">massage</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="your message"></textarea>
+                    </div>
+
+                    <div class="form-group full-width">
+                        <button type="submit">send message</button>
+                    </div>
+
+                </fieldset>
+
+            </div>
+
+        </div>
+    </section>
+    <footer id="footer" class=" footer white-bg">
+        <p><a rel="nofollow" target="_blank"
+                href="https://i.pinimg.com/736x/7b/4d/2b/7b4d2b32328ffb17051d41e3ad2d1ac8.jpg">Feito com <span
+                    class="chico">🍁</span>
+                por francisco</a></p>
+
+    </footer>
+
+    <a class="back-on-top" href="#">➤</a>
+</body>
+
+</html
